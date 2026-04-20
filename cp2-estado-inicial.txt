@@ -1,0 +1,29 @@
+mathias@mathias-VirtualBox:~/Documentos/dev/actividad-6-1-primer-flujo-de-trabajo-con-git-matchias$ git status
+En la rama main
+Tu rama está actualizada con 'origin/main'.
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que será confirmado)
+        cp1-init-rama-main.png
+        notas-git.md
+
+no hay nada agregado al commit pero hay archivos sin seguimiento presentes (usa "git add" para hacerles seguimiento)
+
+Un archivo “untracked” significa que Git todavía no lo está siguiendo, es decir, existe en la carpeta pero no forma parte del repositorio aún.
+
+mathias@mathias-VirtualBox:~/Documentos/dev/actividad-6-1-primer-flujo-de-trabajo-con-git-matchias$ git status
+En la rama main
+Tu rama está actualizada con 'origin/main'.
+
+Cambios a ser confirmados:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+        nuevos archivos: notas-git.md
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que será confirmado)
+        cp1-init-rama-main.png
+        cp2-estado-inicial.txt
+
+        La diferencia es que “untracked” es un archivo que Git no controla todavía, mientras que en “staging” ya está preparado para incluirse en el próximo commit.
+El comando que usé fue git add notas-git.md.
+

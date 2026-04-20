@@ -1,0 +1,9 @@
+mathias@mathias-VirtualBox:~/Documentos/dev/actividad-6-1-primer-flujo-de-trabajo-con-git-matchias$ git log --oneline
+f272782 (HEAD -> main) Completa conceptos básicos de flujo en Git
+23df481 Añade archivo de notas inicial sobre Git
+d48bfaf (origin/main, origin/HEAD) add deadline
+9b8acc7 Initial commit
+
+Es importante escribir mensajes de commit claros porque ayudan a entender qué cambios se hicieron sin tener que revisar el código. Así el historial es más fácil de leer y trabajar en equipo.
+
+
